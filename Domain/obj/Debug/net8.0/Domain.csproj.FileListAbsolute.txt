@@ -1,0 +1,24 @@
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Domain\bin\Debug\net8.0\Domain.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Domain\bin\Debug\net8.0\Domain.pdb
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.pdb
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\bin\Debug\net8.0\Domain.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\bin\Debug\net8.0\Domain.pdb
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.pdb
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\ref\Domain.dll

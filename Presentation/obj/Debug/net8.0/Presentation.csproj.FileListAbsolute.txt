@@ -1,0 +1,34 @@
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\bin\Debug\net8.0\Presentation.deps.json
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\bin\Debug\net8.0\Presentation.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\bin\Debug\net8.0\Presentation.pdb
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\bin\Debug\net8.0\Application.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\bin\Debug\net8.0\Domain.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\bin\Debug\net8.0\Application.pdb
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\bin\Debug\net8.0\Domain.pdb
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.csproj.AssemblyReference.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfoInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfo.cs
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.csproj.CoreCompileInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.csproj.CopyComplete
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\obj\Debug\net8.0\refint\Presentation.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.pdb
+C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Presentation\obj\Debug\net8.0\ref\Presentation.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\bin\Debug\net8.0\Presentation.deps.json
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\bin\Debug\net8.0\Presentation.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\bin\Debug\net8.0\Presentation.pdb
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\bin\Debug\net8.0\Application.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\bin\Debug\net8.0\Domain.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\bin\Debug\net8.0\Application.pdb
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\bin\Debug\net8.0\Domain.pdb
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.csproj.AssemblyReference.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfoInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfo.cs
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.csproj.CoreCompileInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.csproj.CopyComplete
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\refint\Presentation.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.pdb
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\ref\Presentation.dll

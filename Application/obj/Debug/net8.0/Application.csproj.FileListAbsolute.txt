@@ -26,6 +26,7 @@ C:\MyWorkSpace\CQRS\CQRS Municipality\Application\obj\Debug\net8.0\Application.G
 C:\MyWorkSpace\CQRS\CQRS Municipality\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
 C:\MyWorkSpace\CQRS\CQRS Municipality\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
 C:\MyWorkSpace\CQRS\CQRS Municipality\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Application\obj\Debug\net8.0\Application.sourcelink.json
 C:\MyWorkSpace\CQRS\CQRS Municipality\Application\obj\Debug\net8.0\Application.csproj.CopyComplete
 C:\MyWorkSpace\CQRS\CQRS Municipality\Application\obj\Debug\net8.0\Application.dll
 C:\MyWorkSpace\CQRS\CQRS Municipality\Application\obj\Debug\net8.0\refint\Application.dll

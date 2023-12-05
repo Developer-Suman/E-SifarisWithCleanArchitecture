@@ -70,9 +70,6 @@ namespace Presentation.Authentication
 
             });
 
-
-
-
         }
 
     }

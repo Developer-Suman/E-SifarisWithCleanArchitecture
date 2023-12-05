@@ -1,4 +1,5 @@
-﻿using Domain.Abstraction;
+﻿using Application.Static.Cache;
+using Domain.Abstraction;
 using Domain.Entities;
 using Domain.IRepositories;
 using Infrastructure.Cache;

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Cache
+namespace Application.Static.Cache
 {
     public static class CacheKeys
     {
-        public const string User = "UsersCacheKey";
+        public const string User = "UserCacheKey";
     }
 }

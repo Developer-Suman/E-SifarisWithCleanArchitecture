@@ -18,6 +18,7 @@ C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.GeneratedMS
 C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
 C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
 C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.sourcelink.json
 C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.dll
 C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\obj\Debug\net8.0\Domain.pdb

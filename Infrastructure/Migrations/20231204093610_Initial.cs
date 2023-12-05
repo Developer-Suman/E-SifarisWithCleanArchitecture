@@ -53,6 +53,66 @@ namespace Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Branches",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    BranchNameInNepali = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BranchNameInEnglish = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ProvianceId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DistrictId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    LocalGovernment = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AddressInEnglish = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AddressInNepali = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BranchContactInEnglish = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BranchContactInNepali = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    OfficeHead = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BasicInformation = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    LogoURL = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    HeaderInEnglish = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    HeaderInNepali = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FooterInEnglish = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FooterInNepali = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    WatermarkURL = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BranchTypeId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    WardId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DepartmentId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    MunicipalityId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    VDCId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsActive = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Branches", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "BranchTypes",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    BranchTypeNameInNepali = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BranchTypeInEnglish = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_BranchTypes", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Proviances",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false),
+                    ProvinceNameInNepali = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ProvinceNameInEnglish = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Proviances", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",
                 columns: table => new
                 {
@@ -158,6 +218,66 @@ namespace Infrastructure.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Districts",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false),
+                    DistrictNameNepali = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DistrictNameEnglish = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ProvianceId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Districts", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Districts_Proviances_ProvianceId",
+                        column: x => x.ProvianceId,
+                        principalTable: "Proviances",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "municipalities",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false),
+                    MunicipalityNameInNepali = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    MunicipalityNameInEnglish = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DistrictId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_municipalities", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_municipalities_Districts_DistrictId",
+                        column: x => x.DistrictId,
+                        principalTable: "Districts",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Vdcs",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false),
+                    VDCNameInNepali = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    VDCNameInEnglish = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DistrictId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Vdcs", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Vdcs_Districts_DistrictId",
+                        column: x => x.DistrictId,
+                        principalTable: "Districts",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -196,6 +316,21 @@ namespace Infrastructure.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Districts_ProvianceId",
+                table: "Districts",
+                column: "ProvianceId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_municipalities_DistrictId",
+                table: "municipalities",
+                column: "DistrictId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Vdcs_DistrictId",
+                table: "Vdcs",
+                column: "DistrictId");
         }
 
         /// <inheritdoc />
@@ -217,10 +352,28 @@ namespace Infrastructure.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "Branches");
+
+            migrationBuilder.DropTable(
+                name: "BranchTypes");
+
+            migrationBuilder.DropTable(
+                name: "municipalities");
+
+            migrationBuilder.DropTable(
+                name: "Vdcs");
+
+            migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+
+            migrationBuilder.DropTable(
+                name: "Districts");
+
+            migrationBuilder.DropTable(
+                name: "Proviances");
         }
     }
 }

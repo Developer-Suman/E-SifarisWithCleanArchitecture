@@ -27,6 +27,7 @@ C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation
 C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfoInputs.cache
 C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfo.cs
 C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.csproj.CoreCompileInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json
 C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.csproj.CopyComplete
 C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\Presentation.dll
 C:\MyWorkSpace\CQRS\CQRS Municipality\Presentation\obj\Debug\net8.0\refint\Presentation.dll

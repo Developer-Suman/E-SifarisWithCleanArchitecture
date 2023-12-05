@@ -6,6 +6,7 @@ using Infrastructure.Cache;
 using Infrastructure.Data;
 using Infrastructure.JWT;
 using Infrastructure.Repositories;
+using Infrastructure.Seed;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -56,6 +57,7 @@ namespace Infrastructure
             services.AddScoped<IMemoryCacheRepository, MemoryCacheRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddMemoryCache();
+            services.AddTransient<DataSeeder>();
 
             return services;
         }

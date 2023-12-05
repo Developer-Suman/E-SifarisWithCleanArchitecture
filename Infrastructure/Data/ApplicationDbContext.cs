@@ -16,6 +16,13 @@ namespace Infrastructure.Data
             
         }
 
+        public DbSet<Branch> Branches { get; set; }
+        public DbSet<BranchType> BranchTypes { get; set; }
+        public DbSet<Proviance> Proviances { get; set; }
+        public DbSet<District> Districts { get; set; }
+        public DbSet<Municipality> municipalities { get; set; }
+        public DbSet<Vdc> Vdcs { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

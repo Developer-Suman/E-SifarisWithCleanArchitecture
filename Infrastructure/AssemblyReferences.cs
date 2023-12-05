@@ -58,6 +58,7 @@ namespace Infrastructure
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddMemoryCache();
             services.AddTransient<DataSeeder>();
+            services.AddScoped<IDistrictRepository, DistrictRepository>();
 
             return services;
         }

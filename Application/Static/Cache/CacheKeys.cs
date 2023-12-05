@@ -9,5 +9,8 @@ namespace Application.Static.Cache
     public static class CacheKeys
     {
         public const string User = "UserCacheKey";
+        public const string Province = "ProvianceCacheKey";
+        public const string District = "DistrictCacheKey";
+        public const string Municipality = "MunicipalityCacheKey";
     }
 }

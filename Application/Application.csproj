@@ -8,6 +8,10 @@
 
   <ItemGroup>
     <Folder Include="Authentication\Queries\" />
+    <Folder Include="District\Command\" />
+    <Folder Include="Initialize\Queries\" />
+    <Folder Include="Proviance\Command\" />
+    <Folder Include="Proviance\Queries\GetByIdProviance\" />
     <Folder Include="User\Commands\" />
   </ItemGroup>
 

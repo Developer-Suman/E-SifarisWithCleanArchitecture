@@ -4,6 +4,8 @@ using Domain.Entities;
 using Domain.IRepositories;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,16 +36,57 @@ namespace Infrastructure.Repositories
             }
 
             var vdc = await _context.Vdcs.AsNoTracking().OrderBy(x => x.Id).ToListAsync();
+
+            await _cacheRepository.SetAsync(cKey, vdc, new MemoryCacheEntryOptions
+            {
+                AbsoluteExpiration = DateTime.Now.AddMinutes(30)
+            }) ;
+
+            return vdc;
         }
 
-        public Task<List<Vdc>> GetByDistrictId(int DistrictId)
+        public async Task<List<Vdc>> GetByDistrictId(int DistrictId)
         {
-            throw new NotImplementedException();
+            var cKey = $"GetByDistrictId{DistrictId}";
+            var cacheData = await _cacheRepository.GetAsync<List<Vdc>>(cKey);
+            
+            if(cacheData is not null)
+            {
+                return cacheData;
+            }
+
+            var vdcs = await _context.Vdcs.AsNoTracking().Where(x=>x.DistrictId == DistrictId).ToListAsync();
+
+            await _cacheRepository.SetAsync(cKey, vdcs, new MemoryCacheEntryOptions
+            {
+                AbsoluteExpiration= DateTime.Now.AddMinutes(30)
+            });
+
+            return vdcs;
         }
 
-        public Task<Vdc> GetById(int VDCId)
+        public async Task<Vdc> GetById(int VDCId)
         {
-            throw new NotImplementedException();
+            var cKey = $"GetById{VDCId}";
+            var cacheData = await _cacheRepository.GetAsync<Vdc>(cKey);
+            if(cacheData is not null)
+            {
+                return cacheData;
+            }
+
+            var vdc = await _context.Vdcs.SingleOrDefaultAsync(x=>x.Id == VDCId);
+            if(vdc is null)
+            {
+                return default!;
+
+            }
+
+            await _cacheRepository.SetAsync(cKey, vdc, new MemoryCacheEntryOptions
+            {
+                AbsoluteExpiration = DateTime.Now.AddMinutes(30)
+            });
+
+            return vdc;
         }
     }
 }

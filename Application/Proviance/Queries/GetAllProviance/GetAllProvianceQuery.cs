@@ -8,6 +8,6 @@ using System.Threading.Tasks;
 
 namespace Application.Proviance.Queries.GetAllProviance
 {
-    public record GetAllProvianceQuery : IRequest<Result<List<GetAllProvianceResponse>>>
+    public record GetAllProvianceQuery : IRequest<Result<List<GetAllProvianceResponse>>>;
     
 }

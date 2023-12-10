@@ -3,148 +3,36 @@
   "WorkspaceRootPath": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\proviance\\queries\\getallproviance\\getallqueryhandeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\proviance\\queries\\getallproviance\\getallqueryhandeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\proviance\\queries\\getallproviance\\getallproviancequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\proviance\\queries\\getallproviance\\getallproviancequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\proviance\\queries\\getallproviance\\getallprovianceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\proviance\\queries\\getallproviance\\getallprovianceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\entities\\proviance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\proviance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\presentation\\assemblyreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|solutionrelative:presentation\\assemblyreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\presentation\\district\\districtendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|solutionrelative:presentation\\district\\districtendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\presentation\\authentication\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|solutionrelative:presentation\\authentication\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Migrations\\20231205112540_Add District End Point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20231205112540_Add District End Point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\district\\queries\\getdistrictbyid\\getdistrictbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\district\\queries\\getdistrictbyid\\getdistrictbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\presentation\\user\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|solutionrelative:presentation\\user\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\district\\queries\\getdistrictbyid\\getdistrictbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\district\\queries\\getdistrictbyid\\getdistrictbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\district\\queries\\getdistrictbyid\\getdistrictbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\district\\queries\\getdistrictbyid\\getdistrictbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\district\\queries\\getalldistrict\\getalldistrictresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\district\\queries\\getalldistrict\\getalldistrictresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\district\\queries\\getalldistrict\\getalldistrictquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\district\\queries\\getalldistrict\\getalldistrictquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\district\\queries\\getalldistrict\\getalldistrictqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\district\\queries\\getalldistrict\\getalldistrictqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\entities\\district.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\district.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\infrastructure\\assemblyreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\assemblyreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\irepositories\\idistrictrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\irepositories\\idistrictrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\infrastructure\\repositories\\municipalityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\municipalityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\infrastructure\\repositories\\vdcrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\vdcrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\static\\cache\\cachekeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\static\\cache\\cachekeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\infrastructure\\repositories\\provincerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\provincerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\irepositories\\ivdcrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\irepositories\\ivdcrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\irepositories\\imunicipalityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\irepositories\\imunicipalityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\vdc\\queries\\getallvdc\\getallvdcqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\vdc\\queries\\getallvdc\\getallvdcqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\irepositories\\iprovincerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\irepositories\\iprovincerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\vdc\\queries\\getallvdc\\getallvdcquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\vdc\\queries\\getallvdc\\getallvdcquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CE3450E-6121-4AD9-B8EA-263460F8C22E}|Web\\Web.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CE3450E-6121-4AD9-B8EA-263460F8C22E}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\vdc\\queries\\getallvdc\\getallvdcresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\vdc\\queries\\getallvdc\\getallvdcresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\initialize\\commands\\initialize\\initializecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\initialize\\commands\\initialize\\initializecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\presentation\\assemblyreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|solutionrelative:presentation\\assemblyreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\initialize\\commands\\initialize\\initializeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\initialize\\commands\\initialize\\initializeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\initialize\\commands\\initialize\\initializerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\initialize\\commands\\initialize\\initializerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\infrastructure\\repositories\\districtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\districtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\user\\queries\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\user\\queries\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\infrastructure\\seed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\seed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\entities\\vdc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\vdc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\entities\\branchtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\branchtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\infrastructure\\migrations\\20231204102842_data seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20231204102842_data seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\presentation\\vdc\\vdcuserpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|solutionrelative:presentation\\vdc\\vdcuserpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,469 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetAllQueryHandeler.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Proviance\\Queries\\GetAllProviance\\GetAllQueryHandeler.cs",
-              "RelativeDocumentMoniker": "Application\\Proviance\\Queries\\GetAllProviance\\GetAllQueryHandeler.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Proviance\\Queries\\GetAllProviance\\GetAllQueryHandeler.cs",
-              "RelativeToolTip": "Application\\Proviance\\Queries\\GetAllProviance\\GetAllQueryHandeler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T12:09:08.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetAllProvianceQuery.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Proviance\\Queries\\GetAllProviance\\GetAllProvianceQuery.cs",
-              "RelativeDocumentMoniker": "Application\\Proviance\\Queries\\GetAllProviance\\GetAllProvianceQuery.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Proviance\\Queries\\GetAllProviance\\GetAllProvianceQuery.cs",
-              "RelativeToolTip": "Application\\Proviance\\Queries\\GetAllProviance\\GetAllProvianceQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T12:06:56.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetAllProvianceResponse.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Proviance\\Queries\\GetAllProviance\\GetAllProvianceResponse.cs",
-              "RelativeDocumentMoniker": "Application\\Proviance\\Queries\\GetAllProviance\\GetAllProvianceResponse.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Proviance\\Queries\\GetAllProviance\\GetAllProvianceResponse.cs",
-              "RelativeToolTip": "Application\\Proviance\\Queries\\GetAllProviance\\GetAllProvianceResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T12:05:24.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20231205112540_Add District End Point.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Migrations\\20231205112540_Add District End Point.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20231205112540_Add District End Point.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Migrations\\20231205112540_Add District End Point.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20231205112540_Add District End Point.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T11:25:41.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetDistrictByIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\District\\Queries\\GetDistrictById\\GetDistrictByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\District\\Queries\\GetDistrictById\\GetDistrictByIdQueryHandler.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\District\\Queries\\GetDistrictById\\GetDistrictByIdQueryHandler.cs",
-              "RelativeToolTip": "Application\\District\\Queries\\GetDistrictById\\GetDistrictByIdQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAowCMAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T11:10:04.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetDistrictByIdQuery.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\District\\Queries\\GetDistrictById\\GetDistrictByIdQuery.cs",
-              "RelativeDocumentMoniker": "Application\\District\\Queries\\GetDistrictById\\GetDistrictByIdQuery.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\District\\Queries\\GetDistrictById\\GetDistrictByIdQuery.cs",
-              "RelativeToolTip": "Application\\District\\Queries\\GetDistrictById\\GetDistrictByIdQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T10:56:13.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\Entities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\ApplicationUser.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\Entities\\ApplicationUser.cs",
-              "RelativeToolTip": "Domain\\Entities\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T10:52:35.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetDistrictByIdResponse.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\District\\Queries\\GetDistrictById\\GetDistrictByIdResponse.cs",
-              "RelativeDocumentMoniker": "Application\\District\\Queries\\GetDistrictById\\GetDistrictByIdResponse.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\District\\Queries\\GetDistrictById\\GetDistrictByIdResponse.cs",
-              "RelativeToolTip": "Application\\District\\Queries\\GetDistrictById\\GetDistrictByIdResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAB6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T10:51:06.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AssemblyReferences.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\AssemblyReferences.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\AssemblyReferences.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\AssemblyReferences.cs",
-              "RelativeToolTip": "Infrastructure\\AssemblyReferences.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAQwDwAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T10:26:49.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GetAllDistrictQueryHandler.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\District\\Queries\\GetAllDistrict\\GetAllDistrictQueryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\District\\Queries\\GetAllDistrict\\GetAllDistrictQueryHandler.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\District\\Queries\\GetAllDistrict\\GetAllDistrictQueryHandler.cs",
-              "RelativeToolTip": "Application\\District\\Queries\\GetAllDistrict\\GetAllDistrictQueryHandler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T10:20:44.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GetAllDistrictQuery.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\District\\Queries\\GetAllDistrict\\GetAllDistrictQuery.cs",
-              "RelativeDocumentMoniker": "Application\\District\\Queries\\GetAllDistrict\\GetAllDistrictQuery.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\District\\Queries\\GetAllDistrict\\GetAllDistrictQuery.cs",
-              "RelativeToolTip": "Application\\District\\Queries\\GetAllDistrict\\GetAllDistrictQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T09:57:36.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GetAllDistrictResponse.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\District\\Queries\\GetAllDistrict\\GetAllDistrictResponse.cs",
-              "RelativeDocumentMoniker": "Application\\District\\Queries\\GetAllDistrict\\GetAllDistrictResponse.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\District\\Queries\\GetAllDistrict\\GetAllDistrictResponse.cs",
-              "RelativeToolTip": "Application\\District\\Queries\\GetAllDistrict\\GetAllDistrictResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAB3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T08:46:44.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AssemblyReferences.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\AssemblyReferences.cs",
-              "RelativeDocumentMoniker": "Presentation\\AssemblyReferences.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\AssemblyReferences.cs",
-              "RelativeToolTip": "Presentation\\AssemblyReferences.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA0AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T06:52:43.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DistrictEndPoints.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\District\\DistrictEndPoints.cs",
-              "RelativeDocumentMoniker": "Presentation\\District\\DistrictEndPoints.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\District\\DistrictEndPoints.cs",
-              "RelativeToolTip": "Presentation\\District\\DistrictEndPoints.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T08:12:21.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MunicipalityRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\MunicipalityRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MunicipalityRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\MunicipalityRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\MunicipalityRepository.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAA7wFMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T07:07:29.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IMunicipalityRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IMunicipalityRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\IRepositories\\IMunicipalityRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IMunicipalityRepository.cs",
-              "RelativeToolTip": "Domain\\IRepositories\\IMunicipalityRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T07:05:50.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ProvinceRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\ProvinceRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProvinceRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\ProvinceRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\ProvinceRepository.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAlwEMAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T06:55:19.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IProvinceRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IProvinceRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\IRepositories\\IProvinceRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IProvinceRepository.cs",
-              "RelativeToolTip": "Domain\\IRepositories\\IProvinceRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T06:53:55.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "InitializeCommand.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Initialize\\Commands\\Initialize\\InitializeCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Initialize\\Commands\\Initialize\\InitializeCommand.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Initialize\\Commands\\Initialize\\InitializeCommand.cs",
-              "RelativeToolTip": "Application\\Initialize\\Commands\\Initialize\\InitializeCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T06:42:06.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "InitializeResponse.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Initialize\\Commands\\Initialize\\InitializeResponse.cs",
-              "RelativeDocumentMoniker": "Application\\Initialize\\Commands\\Initialize\\InitializeResponse.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Initialize\\Commands\\Initialize\\InitializeResponse.cs",
-              "RelativeToolTip": "Application\\Initialize\\Commands\\Initialize\\InitializeResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T06:41:47.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "InitializeRequest.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Initialize\\Commands\\Initialize\\InitializeRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Initialize\\Commands\\Initialize\\InitializeRequest.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Initialize\\Commands\\Initialize\\InitializeRequest.cs",
-              "RelativeToolTip": "Application\\Initialize\\Commands\\Initialize\\InitializeRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T06:41:20.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "CacheKeys.cs",
               "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Static\\Cache\\CacheKeys.cs",
               "RelativeDocumentMoniker": "Application\\Static\\Cache\\CacheKeys.cs",
               "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Static\\Cache\\CacheKeys.cs",
               "RelativeToolTip": "Application\\Static\\Cache\\CacheKeys.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T04:56:31.597Z",
+              "WhenOpened": "2023-12-10T18:35:47.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DistrictRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\DistrictRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DistrictRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\DistrictRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\DistrictRepository.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAYwFwAAAAdAAAA",
+              "DocumentIndex": 0,
+              "Title": "VDCRepository.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\VDCRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\VDCRepository.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\VDCRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\VDCRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T04:53:04.718Z",
+              "WhenOpened": "2023-12-10T18:34:07.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IDistrictRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IDistrictRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\IRepositories\\IDistrictRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IDistrictRepository.cs",
-              "RelativeToolTip": "Domain\\IRepositories\\IDistrictRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAjAAAA",
+              "DocumentIndex": 2,
+              "Title": "IVDCRepository.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IVDCRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\IRepositories\\IVDCRepository.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IVDCRepository.cs",
+              "RelativeToolTip": "Domain\\IRepositories\\IVDCRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T04:50:58.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "GetAllUsersQueryHandler.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\User\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\User\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\User\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "RelativeToolTip": "Application\\User\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-04T10:51:32.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserEndPoints.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\User\\UserEndPoints.cs",
-              "RelativeDocumentMoniker": "Presentation\\User\\UserEndPoints.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\User\\UserEndPoints.cs",
-              "RelativeToolTip": "Presentation\\User\\UserEndPoints.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCgAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-04T10:41:52.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "20231204102842_Data Seeding.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Migrations\\20231204102842_Data Seeding.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20231204102842_Data Seeding.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Migrations\\20231204102842_Data Seeding.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20231204102842_Data Seeding.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-04T10:28:42.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAuwCUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-04T10:24:36.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Branch.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\Entities\\Branch.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Branch.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\Entities\\Branch.cs",
-              "RelativeToolTip": "Domain\\Entities\\Branch.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAQwD0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-04T09:32:23.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "BranchType.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\Entities\\BranchType.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\BranchType.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\Entities\\BranchType.cs",
-              "RelativeToolTip": "Domain\\Entities\\BranchType.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-04T09:23:46.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "District.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\Entities\\District.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\District.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\Entities\\District.cs",
-              "RelativeToolTip": "Domain\\Entities\\District.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-04T09:23:40.482Z",
+              "WhenOpened": "2023-12-10T18:32:25.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Proviance.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\Entities\\Proviance.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Proviance.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\Entities\\Proviance.cs",
-              "RelativeToolTip": "Domain\\Entities\\Proviance.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Title": "GetAllVDCQueryHandler.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\VDC\\Queries\\GetAllVDC\\GetAllVDCQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\VDC\\Queries\\GetAllVDC\\GetAllVDCQueryHandler.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\VDC\\Queries\\GetAllVDC\\GetAllVDCQueryHandler.cs",
+              "RelativeToolTip": "Application\\VDC\\Queries\\GetAllVDC\\GetAllVDCQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-04T09:23:35.248Z",
+              "WhenOpened": "2023-12-10T18:28:06.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllVDCQuery.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\VDC\\Queries\\GetAllVDC\\GetAllVDCQuery.cs",
+              "RelativeDocumentMoniker": "Application\\VDC\\Queries\\GetAllVDC\\GetAllVDCQuery.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\VDC\\Queries\\GetAllVDC\\GetAllVDCQuery.cs",
+              "RelativeToolTip": "Application\\VDC\\Queries\\GetAllVDC\\GetAllVDCQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-10T18:27:12.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAllVDCResponse.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\VDC\\Queries\\GetAllVDC\\GetAllVDCResponse.cs",
+              "RelativeDocumentMoniker": "Application\\VDC\\Queries\\GetAllVDC\\GetAllVDCResponse.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\VDC\\Queries\\GetAllVDC\\GetAllVDCResponse.cs",
+              "RelativeToolTip": "Application\\VDC\\Queries\\GetAllVDC\\GetAllVDCResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-10T18:25:46.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AuthEndPoints.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\Authentication\\AuthEndPoints.cs",
-              "RelativeDocumentMoniker": "Presentation\\Authentication\\AuthEndPoints.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\Authentication\\AuthEndPoints.cs",
-              "RelativeToolTip": "Presentation\\Authentication\\AuthEndPoints.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAYwBcAAAAQAAAA",
+              "Title": "AssemblyReferences.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\AssemblyReferences.cs",
+              "RelativeDocumentMoniker": "Presentation\\AssemblyReferences.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\AssemblyReferences.cs",
+              "RelativeToolTip": "Presentation\\AssemblyReferences.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAzwB0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-04T08:34:35.215Z",
+              "WhenOpened": "2023-12-10T18:25:20.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "DataSeeder.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Seed\\DataSeeder.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Seed\\DataSeeder.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Seed\\DataSeeder.cs",
-              "RelativeToolTip": "Infrastructure\\Seed\\DataSeeder.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAqwCkAAAA0AAAA",
+              "DocumentIndex": 7,
+              "Title": "VDCUserPoints.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\VDC\\VDCUserPoints.cs",
+              "RelativeDocumentMoniker": "Presentation\\VDC\\VDCUserPoints.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\VDC\\VDCUserPoints.cs",
+              "RelativeToolTip": "Presentation\\VDC\\VDCUserPoints.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAlwA4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-04T08:32:57.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAEwBcAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-04T08:30:06.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Vdc.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\Entities\\Vdc.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Vdc.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\Entities\\Vdc.cs",
-              "RelativeToolTip": "Domain\\Entities\\Vdc.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwA0AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-04T08:30:02.075Z"
+              "WhenOpened": "2023-12-10T18:19:46.641Z",
+              "EditorCaption": ""
             }
           ]
         }

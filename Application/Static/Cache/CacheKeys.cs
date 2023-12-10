@@ -12,5 +12,6 @@ namespace Application.Static.Cache
         public const string Province = "ProvianceCacheKey";
         public const string District = "DistrictCacheKey";
         public const string Municipality = "MunicipalityCacheKey";
+        public const string VDC = "VDCCacheKey";
     }
 }

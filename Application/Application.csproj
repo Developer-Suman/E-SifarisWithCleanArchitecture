@@ -11,8 +11,10 @@
     <Folder Include="District\Command\" />
     <Folder Include="Initialize\Queries\" />
     <Folder Include="Proviance\Command\" />
-    <Folder Include="Proviance\Queries\GetByIdProviance\" />
     <Folder Include="User\Commands\" />
+    <Folder Include="VDC\Command\" />
+    <Folder Include="VDC\Queries\GetByIdVDC\" />
+    <Folder Include="VDC\Queries\GetVDCByDistrict\" />
   </ItemGroup>
 
   <ItemGroup>

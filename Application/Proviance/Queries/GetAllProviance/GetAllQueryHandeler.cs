@@ -12,16 +12,33 @@ namespace Application.Proviance.Queries.GetAllProviance
     public sealed class GetAllQueryHandeler : IRequestHandler<GetAllProvianceQuery, Result<List<GetAllProvianceResponse>>>
     {
 
-        private readonly IProvinceRepository provinceRepository;
+        private readonly IProvinceRepository _provinceRepository;
 
 
-        //public GetAllQueryHandeler(IProvi)
-        //{
-            
-        //}
-        public Task<Result<List<GetAllProvianceResponse>>> Handle(GetAllProvianceQuery request, CancellationToken cancellationToken)
+        public GetAllQueryHandeler(IProvinceRepository provinceRepository)
         {
-            throw new NotImplementedException();
+            _provinceRepository = provinceRepository;
+
+        }
+        public async Task<Result<List<GetAllProvianceResponse>>> Handle(GetAllProvianceQuery request, CancellationToken cancellationToken)
+        {
+            var query = await _provinceRepository.GetAll();
+
+            List<GetAllProvianceResponse> getAllProvianceResponses = new List<GetAllProvianceResponse>();
+            if(query is not null &&  query.Count > 0)
+            {
+                foreach(var response in query)
+                {
+                    getAllProvianceResponses.Add(new GetAllProvianceResponse(
+                        response.Id,
+                        response.ProvinceNameInNepali,
+                        response.ProvinceNameInEnglish
+                        ));
+
+                }
+            }
+
+            return Result<List<GetAllProvianceResponse>>.Success(getAllProvianceResponses);
         }
     }
 }

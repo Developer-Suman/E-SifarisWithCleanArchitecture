@@ -1,5 +1,6 @@
 ﻿using Application.District.Queries.GetAllDistrict;
 using Application.District.Queries.GetDistrictById;
+using Application.District.Queries.GetDistrictByProvianceId;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -49,6 +50,22 @@ namespace Presentation.District
                 {
                     return Results.BadRequest(ex.Message);
 
+                }
+
+            }).WithTags("District");
+
+            app.MapGet("District/getdistrict-by-provianceId", [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+            async (int ProvianceId, IMediator mediator, CancellationToken cancellationtoken) =>
+            {
+                try
+                {
+                    var query = new GetDistrictByProvianceIdQuery(ProvianceId);
+                    var response = await mediator.Send(query, cancellationtoken);
+                    return response.IsSuccess? Results.Ok(response.Data) :Results.NotFound(response.Errors);
+
+                }catch(Exception ex)
+                {
+                    return Results.BadRequest(ex.Message);
                 }
 
             }).WithTags("District");

@@ -2,7 +2,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using Presentation.Authentication;
 using Presentation.District;
+using Presentation.Proviance;
 using Presentation.User;
+using Presentation.VDC;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +26,8 @@ namespace Presentation
             builder.MapUserEndPoints();
             builder.MapAuthEndPoints();
             builder.MapDistrictEndPoints();
+            builder.MapProvianceEndPoints();
+            builder.MapVDCEndPoints();
             return builder;
 
         }

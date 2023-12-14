@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace Application.VDC.Queries.GetVDCByDistrict
 {
-    public class GetVDCByDistrictIdResponse(int VDCId, string vdcNameInNepali,string vdcNameInEnglish, int districtId);
+    public record GetVDCByDistrictIdResponse(int id, string vDCNameInNepali, string vDCNameInEnglish, int districtId);
     
 }

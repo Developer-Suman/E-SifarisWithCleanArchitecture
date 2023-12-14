@@ -55,7 +55,7 @@ namespace Infrastructure.Repositories
                 return cacheData;
             }
 
-            var vdcs = await _context.Vdcs.AsNoTracking().Where(x=>x.DistrictId == DistrictId).ToListAsync();
+            var vdcs = await _context.Vdcs.AsNoTracking().Where(x=>x.DistrictId == DistrictId).OrderBy(x=>x.Id).ToListAsync();
 
             await _cacheRepository.SetAsync(cKey, vdcs, new MemoryCacheEntryOptions
             {

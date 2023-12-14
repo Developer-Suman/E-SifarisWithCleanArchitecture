@@ -22,22 +22,23 @@ namespace Application.VDC.Queries.GetVDCByDistrict
         {
             var vdcs = await _vDCRepository.GetByDistrictId(request.districtId);
 
-            List<GetVDCByDistrictIdResponse> getVDCByDistrictIdResponses = new List<GetVDCByDistrictIdResponse>();
-            if(vdcs is not null && vdcs.Count > 0)
-            {
-                foreach(var vd in vdcs)
-                {
-                    getVDCByDistrictIdResponses.Add(new GetVDCByDistrictIdResponse(
-                        vd.Id,
-                        vd.VDCNameInNepali,
-                        vd.VDCNameInEnglish,
-                        vd.DistrictId
-                        ));
+            List<GetVDCByDistrictIdResponse> getVdcByDistrictIdResponses = new List<GetVDCByDistrictIdResponse>();
 
+            if (vdcs is not null && vdcs.Count > 0)
+            {
+                foreach (var vdc in vdcs)
+                {
+                    getVdcByDistrictIdResponses.Add(new GetVDCByDistrictIdResponse(
+                        vdc.Id,
+                        vdc.VDCNameInNepali,
+                        vdc.VDCNameInEnglish,
+                        vdc.DistrictId
+                        ));
                 }
             }
+            return Result<List<GetVDCByDistrictIdResponse>>.Success(getVdcByDistrictIdResponses);
 
-            return Result<List<GetVDCByDistrictIdResponse>>.Success(getVDCByDistrictIdResponses);
+
         }
     }
 }

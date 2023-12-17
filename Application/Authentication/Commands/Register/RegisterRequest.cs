@@ -6,5 +6,10 @@ using System.Threading.Tasks;
 
 namespace Application.Authentication.Commands.Register
 {
-    public record RegisterRequest(string username,string email, string password );
+    public class RegisterRequest
+    {
+        public string? username { get; set; }
+        public string? email {  get; set; }
+        public string? password { get; set; }
+    }
 }

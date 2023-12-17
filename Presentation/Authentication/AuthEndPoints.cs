@@ -2,6 +2,7 @@
 using Application.Authentication.Commands.Refresh_Token;
 using Application.Authentication.Commands.Register;
 using Domain.Abstraction;
+using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
@@ -19,9 +20,14 @@ namespace Presentation.Authentication
     {
         public static void MapAuthEndPoints(this IEndpointRouteBuilder app)
         {
-            app.MapPost("Auth/login", async([FromBody] LoginRequest request, IMediator _mediator, CancellationToken cancellationToken) =>{
+            app.MapPost("Auth/login", async(IValidator<LoginRequest> validator, [FromBody] LoginRequest request, IMediator _mediator, CancellationToken cancellationToken) =>{
                 try
                 {
+                    var validation = await validator.ValidateAsync(request);
+                    if(!validation.IsValid)
+                    {
+                        return Results.ValidationProblem(validation.ToDictionary());
+                    }
                     var command = new LoginCommand(request.username, request.password);
 
                     var tokenResult = await _mediator.Send(command, cancellationToken);
@@ -36,10 +42,17 @@ namespace Presentation.Authentication
 
             }).WithTags("Authenticate");
 
-            app.MapPost("Auth/register-user", async ([FromBody] RegisterRequest request, IMediator _mediator, CancellationToken cancellationtoken) =>
+            app.MapPost("Auth/register-user", async (IValidator<RegisterRequest> validator, [FromBody] RegisterRequest request, IMediator _mediator, CancellationToken cancellationtoken) =>
             {
                 try
                 {
+                    var validation = await validator.ValidateAsync(request);
+                    if(!validation.IsValid)
+                    {
+                        return Results.ValidationProblem(validation.ToDictionary());
+                    }
+
+
                     var command = new RegisterCommand(request.username, request.email, request.password);
 
                     var result = await _mediator.Send(command, cancellationtoken);

@@ -156,6 +156,9 @@ C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\Web.dll
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\Web.pdb
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\Azure.Core.dll
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\Azure.Identity.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\FluentValidation.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\Humanizer.dll
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\MediatR.dll
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\MediatR.Contracts.dll

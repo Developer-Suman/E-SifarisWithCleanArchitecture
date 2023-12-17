@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Initialize.Commands.Initialize
+namespace Application.Inatiallize.Queries.CheckInitillize
 {
-    public class InitializeRequest
-    {
-    }
+    public record CheckInitillizeResponse(bool isChecked);
+   
 }

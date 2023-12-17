@@ -61,6 +61,7 @@ namespace Infrastructure
             services.AddScoped<IDistrictRepository, DistrictRepository>();
             services.AddScoped<IVDCRepository, VDCRepository>();
             services.AddScoped<IProvinceRepository, ProvinceRepository>();
+            services.AddScoped<IinitializeRepository, InitializeRepository>();
 
             return services;
         }

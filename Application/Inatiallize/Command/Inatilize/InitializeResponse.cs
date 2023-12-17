@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Inatiallize.Command.Inatilize
 {
-    public class InitializeResponse
+    public class InitializeResponse()
     {
     }
 }

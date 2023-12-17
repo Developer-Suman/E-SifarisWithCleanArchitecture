@@ -6,5 +6,9 @@ using System.Threading.Tasks;
 
 namespace Application.Authentication.Commands.Login
 {
-    public record LoginRequest(string username, string password);
+    public class LoginRequest
+    {
+        public string username { get; set; }
+        public string password { get; set; }
+    }
 }

@@ -1,4 +1,6 @@
-﻿using Application.Inatiallize.Command.Inatilize;
+﻿using Application.Authentication.Commands.Login;
+using Application.Authentication.Commands.Register;
+using Application.Inatiallize.Command.Inatilize;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -15,6 +17,8 @@ namespace Application
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddScoped<IValidator<InitializeRequest>, InitializeRequestValidator>();
+            services.AddScoped<IValidator<RegisterRequest>, RegisterRequestValidator>();
+            services.AddScoped<IValidator<LoginRequest>, LogInRequestValidator>();
             services.AddMediatR(x => x.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
             return services;
         }

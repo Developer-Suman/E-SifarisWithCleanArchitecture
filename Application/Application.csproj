@@ -4,13 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <UserSecretsId>8874e7b2-a522-415e-a32f-08c14134e791</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Authentication\Queries\" />
     <Folder Include="District\Command\" />
-    <Folder Include="Inatiallize\Queries\" />
-    <Folder Include="Initialize\Queries\" />
     <Folder Include="Proviance\Command\" />
     <Folder Include="User\Commands\" />
     <Folder Include="VDC\Command\" />
@@ -23,6 +22,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
   </ItemGroup>
 

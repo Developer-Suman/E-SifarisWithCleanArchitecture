@@ -24,10 +24,22 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="9.15.0.81779">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\MyWorkSpace\CQRS\CQRS Municipality\Application\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\MyWorkSpace\CQRS\CQRS Municipality\Application\.editorconfig" />
   </ItemGroup>
 
 </Project>

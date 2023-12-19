@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Domain.Abstraction;
+using Domain.Entities;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,8 @@ namespace Domain.IRepositories
     public interface IinitializeRepository
     {
       
-        Task<bool> CheckInitillize();
-        //Task<IdentityResult> Initiallize(Branch branch);  
+
+        Task<Result<CheckInitillizeResponse>> CheckInitillize();
+        //Task<string> Initialize(Branch branch);  
     }
 }

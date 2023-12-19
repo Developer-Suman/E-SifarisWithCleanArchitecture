@@ -3,112 +3,68 @@
   "WorkspaceRootPath": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\presentation\\initialize\\initializeendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|solutionrelative:presentation\\initialize\\initializeendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\inatiallize\\queries\\checkinitillize\\checkinitillizequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\inatiallize\\queries\\checkinitillize\\checkinitillizequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\infrastructure\\repositories\\initializerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\initializerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\infrastructure\\assemblyreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\assemblyreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\irepositories\\iinitializerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\irepositories\\iinitializerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\user\\queries\\getuserbyid\\getuserbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\user\\queries\\getuserbyid\\getuserbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\presentation\\user\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|solutionrelative:presentation\\user\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\user\\queries\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\user\\queries\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\user\\queries\\getallusers\\getallusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\user\\queries\\getallusers\\getallusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\user\\queries\\getallusers\\getalluserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\user\\queries\\getallusers\\getalluserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\inatiallize\\command\\inatilize\\initializeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\inatiallize\\command\\inatilize\\initializeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\user\\queries\\getuserbyid\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\user\\queries\\getuserbyid\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\user\\queries\\getuserbyid\\getuserbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\user\\queries\\getuserbyid\\getuserbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\inatiallize\\queries\\checkinitillize\\checkinitillizeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\inatiallize\\queries\\checkinitillize\\checkinitillizeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\user\\queries\\getallusers\\getallusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\user\\queries\\getallusers\\getallusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\inatiallize\\queries\\checkinitillize\\checkinitillizequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\inatiallize\\queries\\checkinitillize\\checkinitillizequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\presentation\\assemblyreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|solutionrelative:presentation\\assemblyreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\inatiallize\\queries\\checkinitillize\\checkinitillizequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\inatiallize\\queries\\checkinitillize\\checkinitillizequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\assemblyreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\assemblyreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\presentation\\proviance\\provianceendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|solutionrelative:presentation\\proviance\\provianceendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\inatiallize\\command\\inatilize\\initializeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\inatiallize\\command\\inatilize\\initializeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\infrastructure\\repositories\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\infrastructure\\repositories\\districtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99C46808-A1B7-4F29-8E02-D515B2FB3DAA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\districtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\inatiallize\\queries\\checkinitillize\\checkinitillizeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\inatiallize\\queries\\checkinitillize\\checkinitillizeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\authentication\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\authentication\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\irepositories\\iauthenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\irepositories\\iauthenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\presentation\\user\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36276E76-7405-49C8-B52C-EAA6FC074686}|Presentation\\Presentation.csproj|solutionrelative:presentation\\user\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\irepositories\\ivdcrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\irepositories\\ivdcrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\inatiallize\\command\\inatilize\\initiallizecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\inatiallize\\command\\inatilize\\initiallizecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\inatiallize\\command\\inatilize\\initializecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\inatiallize\\command\\inatilize\\initializecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\irepositories\\iprovincerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\irepositories\\iprovincerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\inatiallize\\command\\inatilize\\initializerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\inatiallize\\command\\inatilize\\initializerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\irepositories\\imunicipalityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\irepositories\\imunicipalityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\authentication\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\authentication\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\domain\\irepositories\\idistrictrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6E9F38-8281-4DDE-91B7-AE338F27485A}|Domain\\Domain.csproj|solutionrelative:domain\\irepositories\\idistrictrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\authentication\\commands\\refresh token\\refreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\authentication\\commands\\refresh token\\refreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|c:\\myworkspace\\cqrs\\cqrs municipality\\application\\authentication\\commands\\login\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C38820-2272-4AEC-A0A9-419AB5332206}|Application\\Application.csproj|solutionrelative:application\\authentication\\commands\\login\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,37 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetUserByIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\User\\Queries\\GetUserById\\GetUserByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\User\\Queries\\GetUserById\\GetUserByIdQueryHandler.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\User\\Queries\\GetUserById\\GetUserByIdQueryHandler.cs",
-              "RelativeToolTip": "Application\\User\\Queries\\GetUserById\\GetUserByIdQueryHandler.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T19:49:21.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserEndPoints.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\User\\UserEndPoints.cs",
-              "RelativeDocumentMoniker": "Presentation\\User\\UserEndPoints.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\User\\UserEndPoints.cs",
-              "RelativeToolTip": "Presentation\\User\\UserEndPoints.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T19:32:57.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "GetUserByIdQuery.cs",
               "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\User\\Queries\\GetUserById\\GetUserByIdQuery.cs",
               "RelativeDocumentMoniker": "Application\\User\\Queries\\GetUserById\\GetUserByIdQuery.cs",
@@ -156,129 +86,12 @@
               "RelativeToolTip": "Application\\User\\Queries\\GetUserById\\GetUserByIdQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T19:39:48.927Z",
+              "WhenOpened": "2023-12-19T01:57:37.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetUserByIdResponse.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\User\\Queries\\GetUserById\\GetUserByIdResponse.cs",
-              "RelativeDocumentMoniker": "Application\\User\\Queries\\GetUserById\\GetUserByIdResponse.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\User\\Queries\\GetUserById\\GetUserByIdResponse.cs",
-              "RelativeToolTip": "Application\\User\\Queries\\GetUserById\\GetUserByIdResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T19:38:32.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AssemblyReferences.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\AssemblyReferences.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\AssemblyReferences.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\AssemblyReferences.cs",
-              "RelativeToolTip": "Infrastructure\\AssemblyReferences.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwBsAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T19:33:59.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AssemblyReferences.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\AssemblyReferences.cs",
-              "RelativeDocumentMoniker": "Presentation\\AssemblyReferences.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\AssemblyReferences.cs",
-              "RelativeToolTip": "Presentation\\AssemblyReferences.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T19:33:43.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AssemblyReferences.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\AssemblyReferences.cs",
-              "RelativeDocumentMoniker": "Application\\AssemblyReferences.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\AssemblyReferences.cs",
-              "RelativeToolTip": "Application\\AssemblyReferences.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T19:33:35.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProvianceEndPoints.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\Proviance\\ProvianceEndPoints.cs",
-              "RelativeDocumentMoniker": "Presentation\\Proviance\\ProvianceEndPoints.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\Proviance\\ProvianceEndPoints.cs",
-              "RelativeToolTip": "Presentation\\Proviance\\ProvianceEndPoints.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T19:27:46.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InitializeEndPoints.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\Initialize\\InitializeEndPoints.cs",
-              "RelativeDocumentMoniker": "Presentation\\Initialize\\InitializeEndPoints.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\Initialize\\InitializeEndPoints.cs",
-              "RelativeToolTip": "Presentation\\Initialize\\InitializeEndPoints.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowEgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T19:27:06.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "InitializeResponse.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Command\\Inatilize\\InitializeResponse.cs",
-              "RelativeDocumentMoniker": "Application\\Inatiallize\\Command\\Inatilize\\InitializeResponse.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Command\\Inatilize\\InitializeResponse.cs",
-              "RelativeToolTip": "Application\\Inatiallize\\Command\\Inatilize\\InitializeResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T19:22:03.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetAllUserResponse.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\User\\Queries\\GetAllUsers\\GetAllUserResponse.cs",
-              "RelativeDocumentMoniker": "Application\\User\\Queries\\GetAllUsers\\GetAllUserResponse.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\User\\Queries\\GetAllUsers\\GetAllUserResponse.cs",
-              "RelativeToolTip": "Application\\User\\Queries\\GetAllUsers\\GetAllUserResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:52:30.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CheckInitillizeQueryHandler.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQueryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQueryHandler.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQueryHandler.cs",
-              "RelativeToolTip": "Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQueryHandler.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:52:18.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "GetAllUsersQuery.cs",
               "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\User\\Queries\\GetAllUsers\\GetAllUsersQuery.cs",
               "RelativeDocumentMoniker": "Application\\User\\Queries\\GetAllUsers\\GetAllUsersQuery.cs",
@@ -286,189 +99,189 @@
               "RelativeToolTip": "Application\\User\\Queries\\GetAllUsers\\GetAllUsersQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:47:22.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CheckInitillizeQuery.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQuery.cs",
-              "RelativeDocumentMoniker": "Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQuery.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQuery.cs",
-              "RelativeToolTip": "Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:50:56.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CheckInitillizeResponse.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeResponse.cs",
-              "RelativeDocumentMoniker": "Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeResponse.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeResponse.cs",
-              "RelativeToolTip": "Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:49:45.878Z",
+              "WhenOpened": "2023-12-19T01:57:30.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GetAllUsersQueryHandler.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\User\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\User\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\User\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "RelativeToolTip": "Application\\User\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCYAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:47:05.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DistrictRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\DistrictRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DistrictRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\DistrictRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\DistrictRepository.cs",
+              "Title": "CheckInitillizeResponse.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeResponse.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeResponse.cs",
+              "RelativeToolTip": "Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:38:28.285Z",
+              "WhenOpened": "2023-12-19T01:57:08.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AuthenticationRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\AuthenticationRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\AuthenticationRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\AuthenticationRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\AuthenticationRepository.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAAB0AAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "UserEndPoints.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\User\\UserEndPoints.cs",
+              "RelativeDocumentMoniker": "Presentation\\User\\UserEndPoints.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Presentation\\User\\UserEndPoints.cs",
+              "RelativeToolTip": "Presentation\\User\\UserEndPoints.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:33:29.547Z",
+              "WhenOpened": "2023-12-19T01:52:44.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LoginCommandHandler.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Authentication\\Commands\\Login\\LoginCommandHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Authentication\\Commands\\Login\\LoginCommandHandler.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Authentication\\Commands\\Login\\LoginCommandHandler.cs",
-              "RelativeToolTip": "Application\\Authentication\\Commands\\Login\\LoginCommandHandler.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "CheckInitillizeQueryHandler.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQueryHandler.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQueryHandler.cs",
+              "RelativeToolTip": "Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQueryHandler.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:35:51.275Z",
+              "WhenOpened": "2023-12-19T01:47:30.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IVDCRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IVDCRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\IRepositories\\IVDCRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IVDCRepository.cs",
-              "RelativeToolTip": "Domain\\IRepositories\\IVDCRepository.cs",
+              "DocumentIndex": 5,
+              "Title": "CheckInitillizeQuery.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQuery.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQuery.cs",
+              "RelativeToolTip": "Application\\Inatiallize\\Queries\\CheckInitillize\\CheckInitillizeQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:35:25.184Z",
+              "WhenOpened": "2023-12-19T01:47:28.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IProvinceRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IProvinceRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\IRepositories\\IProvinceRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IProvinceRepository.cs",
-              "RelativeToolTip": "Domain\\IRepositories\\IProvinceRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:35:22.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IMunicipalityRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IMunicipalityRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\IRepositories\\IMunicipalityRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IMunicipalityRepository.cs",
-              "RelativeToolTip": "Domain\\IRepositories\\IMunicipalityRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:35:20.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IDistrictRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IDistrictRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\IRepositories\\IDistrictRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IDistrictRepository.cs",
-              "RelativeToolTip": "Domain\\IRepositories\\IDistrictRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:21:36.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IAuthenticationRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IAuthenticationRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\IRepositories\\IAuthenticationRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IAuthenticationRepository.cs",
-              "RelativeToolTip": "Domain\\IRepositories\\IAuthenticationRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:20:35.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InitializeRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\InitializeRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\InitializeRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\InitializeRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\InitializeRepository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAD4vxUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:19:22.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "IinitializeRepository.cs",
               "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IinitializeRepository.cs",
               "RelativeDocumentMoniker": "Domain\\IRepositories\\IinitializeRepository.cs",
               "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IinitializeRepository.cs",
               "RelativeToolTip": "Domain\\IRepositories\\IinitializeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:16:06.315Z",
+              "WhenOpened": "2023-12-18T18:20:52.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\IRepositories\\IUserRepository.cs",
-              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Domain\\IRepositories\\IUserRepository.cs",
-              "RelativeToolTip": "Domain\\IRepositories\\IUserRepository.cs",
+              "DocumentIndex": 8,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Authentication\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Authentication\\Commands\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Authentication\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "Application\\Authentication\\Commands\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwCEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-18T18:16:10.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RefreshTokenCommand.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Authentication\\Commands\\Refresh Token\\RefreshTokenCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Authentication\\Commands\\Refresh Token\\RefreshTokenCommand.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Authentication\\Commands\\Refresh Token\\RefreshTokenCommand.cs",
+              "RelativeToolTip": "Application\\Authentication\\Commands\\Refresh Token\\RefreshTokenCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-17T18:15:04.537Z",
+              "WhenOpened": "2023-12-18T18:15:35.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Authentication\\Commands\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Authentication\\Commands\\Login\\LoginCommand.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Authentication\\Commands\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "Application\\Authentication\\Commands\\Login\\LoginCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-18T18:15:25.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Authentication\\Commands\\Login\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Authentication\\Commands\\Login\\LoginResponse.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Authentication\\Commands\\Login\\LoginResponse.cs",
+              "RelativeToolTip": "Application\\Authentication\\Commands\\Login\\LoginResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-18T18:15:17.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InitiallizeCommandHandler.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Command\\Inatilize\\InitiallizeCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Inatiallize\\Command\\Inatilize\\InitiallizeCommandHandler.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Command\\Inatilize\\InitiallizeCommandHandler.cs",
+              "RelativeToolTip": "Application\\Inatiallize\\Command\\Inatilize\\InitiallizeCommandHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBcAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-18T18:15:01.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InitializeResponse.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Command\\Inatilize\\InitializeResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Inatiallize\\Command\\Inatilize\\InitializeResponse.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Command\\Inatilize\\InitializeResponse.cs",
+              "RelativeToolTip": "Application\\Inatiallize\\Command\\Inatilize\\InitializeResponse.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-18T18:01:01.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InitializeRequest.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Command\\Inatilize\\InitializeRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Inatiallize\\Command\\Inatilize\\InitializeRequest.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Command\\Inatilize\\InitializeRequest.cs",
+              "RelativeToolTip": "Application\\Inatiallize\\Command\\Inatilize\\InitializeRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-18T17:53:32.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InitializeCommand.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Command\\Inatilize\\InitializeCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Inatiallize\\Command\\Inatilize\\InitializeCommand.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Application\\Inatiallize\\Command\\Inatilize\\InitializeCommand.cs",
+              "RelativeToolTip": "Application\\Inatiallize\\Command\\Inatilize\\InitializeCommand.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-18T17:52:32.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InitializeRepository.cs",
+              "DocumentMoniker": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\InitializeRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\InitializeRepository.cs",
+              "ToolTip": "C:\\MyWorkSpace\\CQRS\\CQRS Municipality\\Infrastructure\\Repositories\\InitializeRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\InitializeRepository.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwCgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-18T17:40:45.361Z",
               "EditorCaption": ""
             }
           ]

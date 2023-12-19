@@ -25,11 +25,13 @@ namespace Application.Inatiallize.Queries.CheckInitillize
             var checkInitiallize = await _initializeRepository.CheckInitillize();
             if(checkInitiallize)
             {
-                return Result<CheckInitillizeResponse>.Success();
+                return Result<CheckInitillizeResponse>.Failure("Not Initiallized");
+                
             }
             else
             {
-                return Result<CheckInitillizeResponse>.Failure("Not Initiallized");
+                return Result<CheckInitillizeResponse>.Success();
+
             }
 
             

@@ -12,7 +12,9 @@
           "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.6-Preview.1",
           "Presentation": "1.0.0",
+          "SonarAnalyzer.CSharp": "9.15.0.81779",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -733,6 +735,7 @@
           }
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.6-Preview.1": {},
       "Microsoft.Win32.SystemEvents/6.0.0": {
         "runtime": {
           "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
@@ -760,6 +763,7 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.15.0.81779": {},
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -1499,6 +1503,13 @@
       "path": "microsoft.sqlserver.server/1.0.0",
       "hashPath": "microsoft.sqlserver.server.1.0.0.nupkg.sha512"
     },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.6-Preview.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-78AXjQrVsIPwhNZ9Rx5aSXLEwTNcyMXaNnVYWVvlV00VczF1rmhuTh+P7SGhzXWfKp9vFy8SR7mM+8q1TAhWcw==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.19.6-preview.1",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.19.6-preview.1.nupkg.sha512"
+    },
     "Microsoft.Win32.SystemEvents/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1512,6 +1523,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "SonarAnalyzer.CSharp/9.15.0.81779": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Aln//O6aJLSuxGBgOign89w/+O8uuIC+0saU+q5vDZYeqQ1FkhT9Ua/TvjisBN4Br91lQ0sSzRsHik4cbXi08A==",
+      "path": "sonaranalyzer.csharp/9.15.0.81779",
+      "hashPath": "sonaranalyzer.csharp.9.15.0.81779.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",

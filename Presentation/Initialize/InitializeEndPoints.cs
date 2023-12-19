@@ -31,6 +31,8 @@ namespace Presentation.Initialize
                     {
                         return Results.ValidationProblem(validation.ToDictionary());
                     }
+
+
                     return Results.Ok();
 
                 }
@@ -43,13 +45,6 @@ namespace Presentation.Initialize
 
             app.MapGet("token/antiforgerytoken", (IAntiforgery antiforgery, HttpContext context) =>
             {
-                //This also works perfectly
-                //var antiforgery = context.RequestServices.GetRequiredService<IAntiforgery>();
-                //var tokens = antiforgery.GetAndStoreTokens(new DefaultHttpContext());
-                ////Include the token in the response(e.g. as a header)
-                //context.Response.Cookies.Append("X-CSRF-TOKEN", tokens.RequestToken, new CookieOptions() { HttpOnly = false });
-
-
                 var token = antiforgery.GetAndStoreTokens(context);
                 var xsref = token.RequestToken!;
                 return TypedResults.Content(xsref, "text/plain");

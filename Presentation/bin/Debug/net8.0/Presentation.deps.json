@@ -12,7 +12,8 @@
           "MediatR": "12.2.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Microsoft.AspNetCore.Authorization": "8.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "SonarAnalyzer.CSharp": "9.15.0.81779"
         },
         "runtime": {
           "Presentation.dll": {}
@@ -310,6 +311,7 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.15.0.81779": {},
       "System.IdentityModel.Tokens.Jwt/7.0.3": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "7.0.3",
@@ -634,6 +636,13 @@
       "sha512": "sha512-wB+LlbDjhnJ98DULjmFepqf9eEMh/sDs6S6hFh68iNRHmwollwhxk+nbSSfpA5+j+FbRyNskoaY4JsY1iCOKCg==",
       "path": "microsoft.identitymodel.tokens/7.0.3",
       "hashPath": "microsoft.identitymodel.tokens.7.0.3.nupkg.sha512"
+    },
+    "SonarAnalyzer.CSharp/9.15.0.81779": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Aln//O6aJLSuxGBgOign89w/+O8uuIC+0saU+q5vDZYeqQ1FkhT9Ua/TvjisBN4Br91lQ0sSzRsHik4cbXi08A==",
+      "path": "sonaranalyzer.csharp/9.15.0.81779",
+      "hashPath": "sonaranalyzer.csharp.9.15.0.81779.nupkg.sha512"
     },
     "System.IdentityModel.Tokens.Jwt/7.0.3": {
       "type": "package",

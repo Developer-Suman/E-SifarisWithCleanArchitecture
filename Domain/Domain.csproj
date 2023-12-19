@@ -8,6 +8,18 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="9.15.0.81779">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\MyWorkSpace\CQRS\CQRS Municipality\Domain\.editorconfig" />
   </ItemGroup>
 
 </Project>

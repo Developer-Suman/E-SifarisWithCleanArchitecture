@@ -147,6 +147,13 @@ C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Web\obj\Debug\net8.0\ref
 C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Web\obj\Debug\net8.0\Web.pdb
 C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Web\obj\Debug\net8.0\Web.genruntimeconfig.cache
 C:\MyWorkSpace\CQRS\CQRS Municipality\CQRS Municipality\Web\obj\Debug\net8.0\ref\Web.dll
+C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.csproj.AssemblyReference.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.AssemblyInfoInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.AssemblyInfo.cs
+C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.csproj.CoreCompileInputs.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.MvcApplicationPartsAssemblyInfo.cache
+C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.sourcelink.json
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\appsettings.Development.json
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\appsettings.json
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\Web.exe
@@ -278,14 +285,6 @@ C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\Application.pdb
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\Infrastructure.pdb
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\Presentation.pdb
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\bin\Debug\net8.0\Domain.pdb
-C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.csproj.AssemblyReference.cache
-C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.GeneratedMSBuildEditorConfig.editorconfig
-C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.AssemblyInfoInputs.cache
-C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.AssemblyInfo.cs
-C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.csproj.CoreCompileInputs.cache
-C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.MvcApplicationPartsAssemblyInfo.cs
-C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.MvcApplicationPartsAssemblyInfo.cache
-C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\Web.sourcelink.json
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\staticwebassets.build.json
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\staticwebassets.development.json
 C:\MyWorkSpace\CQRS\CQRS Municipality\Web\obj\Debug\net8.0\staticwebassets\msbuild.Web.Microsoft.AspNetCore.StaticWebAssets.props

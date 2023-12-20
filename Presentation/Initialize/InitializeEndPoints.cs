@@ -21,16 +21,46 @@ namespace Presentation.Initialize
         public static void MapInitializeEndPoints(this IEndpointRouteBuilder app)
         {
 
-            app.MapPost("Initialize/initialize-system", async (IValidator<InitializeRequest> validator, [FromForm] InitializeRequest initializeRequest, HttpContext context) =>
+            app.MapPost("Initialize/initialize-system", async (IValidator<InitializeRequest> validator, [FromBody] InitializeRequest initializeRequest, Mediator mediatr, CancellationToken cancellationToken) =>
             {
                 try
                 {
+                   
  
                     var validation = await validator.ValidateAsync(initializeRequest);
                     if (!validation.IsValid)
                     {
                         return Results.ValidationProblem(validation.ToDictionary());
                     }
+
+                    var command = new InitializeCommand(
+                        initializeRequest.BranchNameInNepali,
+                        initializeRequest.BranchNameInEnglish,
+                        initializeRequest.provianceId,
+                        initializeRequest.districtId,
+                        initializeRequest.localGovernment,
+                        initializeRequest.addressInEnglish,
+                        initializeRequest.addressInNepali,
+                        initializeRequest.branchContactInEnglish,
+                        initializeRequest.branchContactInNepali,
+                        initializeRequest.officeHead,
+                        initializeRequest.basicInformation,
+                        initializeRequest.logoURL,
+                        initializeRequest.headerInEnglish,
+                        initializeRequest.headerInNepali,
+                        initializeRequest.footerInEnglish,
+                        initializeRequest.footerInNepali,
+                        initializeRequest.watermarkURL,
+                        initializeRequest.branchTypeId,
+                        initializeRequest.wardId,
+                        initializeRequest.departmentId,
+                        initializeRequest.municipalityId,
+                        initializeRequest.vDCId,
+                        initializeRequest.isActive
+                        );
+
+                    var result = await mediatr.Send(command, cancellationToken);
+                    return result.IsSuccess ? Results.Ok(result.Data) : Results.BadRequest(result.Errors);
 
 
                     return Results.Ok();
@@ -58,7 +88,7 @@ namespace Presentation.Initialize
                 {
                     var query = new CheckInitillizeQuery();
                     var response  =await mediator.Send(query, cancellationtoken);
-                    return response.IsSuccess? Results.Ok(response.IsSuccess) : Results.BadRequest(response?.Errors);
+                    return response.IsSuccess? Results.Ok(response.IsSuccess) : Results.BadRequest(response.Errors);
 
                 }catch(Exception ex)
                 {

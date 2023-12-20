@@ -1,5 +1,6 @@
 ﻿using Application.Inatiallize.Command.Inatilize;
 using Application.Inatiallize.Queries.CheckInitillize;
+using Application.Static.Roles;
 using Domain.Abstraction;
 using Domain.Entities;
 using Domain.IRepositories;
@@ -19,81 +20,85 @@ namespace Infrastructure.Repositories
     {
         private readonly ApplicationDbContext _context;
         private readonly IUnitOfWork _unitOfWork;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
         
 
-        public InitializeRepository(ApplicationDbContext context, IUnitOfWork unitOfWork)
+        public InitializeRepository(ApplicationDbContext context, IUnitOfWork unitOfWork, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
+            _userManager = userManager;
+            _roleManager = roleManager;
             _context = context;
             _unitOfWork = unitOfWork;
 
             
         }
 
-
-        public async Task<Result<CheckInitillizeResponse>> CheckInitillize()
+        public async Task<string> Initialize(Branch branch)
         {
-            var result =  await _context.Set<Branch>().AnyAsync();
-            if(result)
+            using (var dbContext = await _context.Database.BeginTransactionAsync())
             {
-                return Result<CheckInitillizeResponse>.Failure("System has been already Initialized");
+                try
+                {
+                    var result = await _context.Branches.AddAsync(branch);
+                    await _unitOfWork.SaveChangesAsync();
 
-            }
-            else
-            {
-                return Result<CheckInitillizeResponse>.Success();
+                    ApplicationUser user = new()
+                    {
+                        UserName = "superadmin",
+                        Email = "superadmin@gmail.com",
+                        
+                        SecurityStamp = Guid.NewGuid().ToString(),
+                    };
+
+                    var results = await _userManager.CreateAsync(user, "Admin@123");
+                    //if (!results.Succeeded)
+                    //{
+                    //    return Result<InitializeResponse>.Failure("User Creation Failed, Please try again ");
+                    //}
+
+                    if (!await _roleManager.RoleExistsAsync(Role.Superadmin))
+                    {
+                        await _roleManager.CreateAsync(new IdentityRole(Role.Superadmin));
+                    }
+
+                    if (!await _roleManager.RoleExistsAsync(Role.User))
+                    {
+                        await _roleManager.CreateAsync(new IdentityRole(Role.User));
+                    }
+
+
+                    dbContext.Commit();
+                    return "Success";
+                }
+                catch (Exception ex)
+                {
+                    dbContext.Rollback();
+                    return null;
+                }
             }
         }
 
-        //public async Task<string> Initialize(InitializeResponse branch)
+
+
+
+        //public async Task<Result<CheckInitillizeResponse>> CheckInitillize()
         //{
-        //    using (var dbContext = await _context.Database.BeginTransactionAsync())
+        //    var result =  await _context.Set<Branch>().AnyAsync();
+        //    if(result)
         //    {
-        //        try
-        //        {
-        //            Branch branchs = new Branch(
-        //                branchNameInNepali: branch.BranchNameInNepali,
-        //                branchNameInEnglish: branch.BranchNameInEnglish,
-        //                provianceId: branch.provianceId,
-        //                districtId: branch.districtId,
-        //                localGovernment: branch.localGovernment,
-        //                addressInEnglish: branch.addressInEnglish,
-        //                addressInNepali: branch.addressInNepali,
-        //                branchContactInEnglish: branch.branchContactInEnglish,
-        //                branchContactInNepali: branch.branchContactInNepali,
-        //                officeHead: branch.officeHead,
-        //                basicInformation: branch.basicInformation,
-        //                logoURL: branch.logoURL,
-        //                headerInEnglish: branch.headerInEnglish,
-        //                headerInNepali: branch.headerInNepali,
-        //                footerInEnglish: branch.footerInEnglish,
-        //                footerInNepali: branch.footerInNepali,
-        //                watermarkURL: branch.watermarkURL,
-        //                branchTypeId: branch.branchTypeId,
-        //                wardId: branch.wardId,
-        //                departmentId: branch.departmentId,
-        //                municipalityId: branch.municipalityId,
-        //                vDCId: branch.vDCId,
-        //                isActive: branch.isActive
-        //            );
+        //        return Result<CheckInitillizeResponse>.Failure("System has been already Initialized");
 
-        //           await _context.AddAsync( branch );
-        //           await _unitOfWork.SaveChangesAsync();
-
-
-
-        //            dbContext.Commit();
-        //            dbContext.Dispose();
-        //            return "Successfully Add Branch";
-        //        }
-        //        // Add exception handling as needed
-        //        catch (Exception ex)
-        //        {
-        //            dbContext.Rollback();
-        //            dbContext.Dispose( );
-        //            return ex.Message;
-        //        }
+        //    }
+        //    else
+        //    {
+        //        return Result<CheckInitillizeResponse>.Success();
         //    }
         //}
 
+
+
     }
+
+
 }

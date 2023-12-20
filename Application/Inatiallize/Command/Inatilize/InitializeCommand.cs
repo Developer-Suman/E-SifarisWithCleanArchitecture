@@ -9,9 +9,11 @@ using System.Threading.Tasks;
 
 namespace Application.Inatiallize.Command.Inatilize
 {
-    public record InitializeCommand(string BranchNameInNepali,
-        string BranchNameInEnglish,
-        string provianceId,
+    public record InitializeCommand(
+        
+        string branchNameInNepali,
+        string branchNameInEnglish,
+        string provinceId,
         string districtId,
         string localGovernment,
         string addressInEnglish,

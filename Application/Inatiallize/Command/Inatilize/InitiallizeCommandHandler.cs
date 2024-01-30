@@ -60,6 +60,12 @@ namespace Application.Inatiallize.Command.Inatilize
 
         
             return Result<InitializeResponse>.Success(dto);
+
+
+
+
+
+
         }
     }
 }

@@ -13,7 +13,7 @@ namespace Domain.IRepositories
     {
       
 
-        //Task<bool> CheckInitillize();
+        Task<bool> CheckInitillize();
         Task<string> Initialize(Branch branch);
     }
 }

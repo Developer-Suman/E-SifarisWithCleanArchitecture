@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Authentication\Commands\Register\DeleteUser\" />
+    <Folder Include="Authentication\Commands\Register\UpdateUser\" />
     <Folder Include="Authentication\Queries\" />
     <Folder Include="District\Command\" />
     <Folder Include="Proviance\Command\" />
@@ -17,6 +19,7 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="MassTransit" Version="8.1.3" />
     <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
       <PrivateAssets>all</PrivateAssets>

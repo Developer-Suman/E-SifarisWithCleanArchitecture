@@ -82,22 +82,24 @@ namespace Infrastructure.Repositories
 
 
 
-        //public async Task<Result<CheckInitillizeResponse>> CheckInitillize()
-        //{
-        //    var result =  await _context.Set<Branch>().AnyAsync();
-        //    if(result)
-        //    {
-        //        return Result<CheckInitillizeResponse>.Failure("System has been already Initialized");
+        public async Task<Result<CheckInitillizeResponse>> CheckInitillize()
+        {
+            var result = await _context.Set<Branch>().AnyAsync();
+            if (result)
+            {
+                return Result<CheckInitillizeResponse>.Failure("System has been already Initialized");
 
-        //    }
-        //    else
-        //    {
-        //        return Result<CheckInitillizeResponse>.Success();
-        //    }
-        //}
+            }
+            else
+            {
+                return Result<CheckInitillizeResponse>.Success();
+            }
+        }
 
-
-
+        Task<bool> IinitializeRepository.CheckInitillize()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 
